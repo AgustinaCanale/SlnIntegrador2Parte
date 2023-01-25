@@ -19,6 +19,8 @@ namespace SlnIntegrador.Entidades
         public string Especialidad { get; set; }
         public string Matricula { get; set; }
 
+
+        public List<Paciente> Pacientes { get; set; }
       
         public List <Paciente> Pacientes { get; set; }
     }
